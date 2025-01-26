@@ -1,0 +1,156 @@
+
+
+html {
+	font-family: "Arial";
+	padding-left: 1em;
+	padding-right: 1em;
+
+	background-color: #1d1c19;
+	/* color: #e3e3e3; */
+	color: #fefddd;
+}
+
+a {
+	color: #00e6ff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b54951;
+	text-decoration: none;
+}
+
+h3 {
+	background-color: #b54951;
+	border-radius: 0.2em;
+
+	border: 0.15em solid black;
+	color: #ffffff;
+
+	padding: 0.2em;
+}
+
+.start-menu, .project-table, .spec-table,
+	.index-table-sidebar, .profile-image, .regular-table {
+
+	background-color: #131216;
+	border: 0.15em solid #913a41;
+	border-radius: 0.3em;
+}
+
+.start-menu {
+	font-family: "Hack-Supplied";
+	margin-top: 1.4%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-between;
+	gap: 2em;
+
+	font-weight: bold;
+
+	max-height: 2.5em;
+
+}
+
+.index-table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.start-menu img {
+	object-fit: contain;
+	max-width: 10%;
+	max-height: 100%;
+}
+
+.index-table td {
+	vertical-align: top;
+	width: 50%;
+	padding: 1em;
+}
+
+.index-table-sidebar {
+	margin-top: 0.8em;
+
+	height: 100%;
+	padding: 1em;
+}
+
+.index-table-sidebar a {
+	text-decoration: none;
+}
+
+.index-table-sidebar td {
+	padding: 0.2em;
+}
+
+.project-table, .spec-table {
+	width: 100%;
+	padding: 0.5em;
+	padding-left: 1em;
+}
+
+.project-table td {
+	padding: 0.15em;
+	padding-right: 0.2em;
+	width: auto;
+}
+
+.spec-table td {
+	border-bottom: 0.15em solid #913a41;
+	width: 30%;
+	white-space: nowrap;
+	padding-right: 1em;
+}
+
+.spec-table th {
+	text-align: left;
+	padding-right: 1em;
+}
+
+.index-quotes-table td {
+	font-weight: bold;
+}
+
+.regular-table {
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 0.7em;
+}
+
+.regular-table th, .regular-table td {
+	padding: 0.6em;
+	border-bottom: 0.15em solid #913a41;
+}
+
+.simple-content {
+	padding: 1em;
+}
+
+.quality-alpha {
+	color: #ff3c00;
+}
+
+.quality-beta {
+	color: #ff00f0;
+}
+
+.quality-gm {
+	color: #ffb700;
+}
+
+.quality-release {
+	color: #00ff62;
+}
+
+footer {
+	margin-top: 95px;
+	text-align: center;
+	padding: 5px;
+	background-color: #b54951;
+	color: #000;
+	
+  }
+  

@@ -98,7 +98,7 @@ h3 {
 	width: auto;
 }
 
-.spec-table td {
+/* .spec-table td {
 	border-bottom: 0.15em solid #913a41;
 	width: 30%;
 	white-space: nowrap;
@@ -108,9 +108,9 @@ h3 {
 .spec-table th {
 	text-align: left;
 	padding-right: 1em;
-}
+} */
 
-.index-quotes-table td {
+.index-info-table td {
 	font-weight: bold;
 }
 
@@ -125,25 +125,6 @@ h3 {
 	border-bottom: 0.15em solid #913a41;
 }
 
-.simple-content {
-	padding: 1em;
-}
-
-.quality-alpha {
-	color: #ff3c00;
-}
-
-.quality-beta {
-	color: #ff00f0;
-}
-
-.quality-gm {
-	color: #ffb700;
-}
-
-.quality-release {
-	color: #00ff62;
-}
 
 footer {
 	margin-top: 95px;
